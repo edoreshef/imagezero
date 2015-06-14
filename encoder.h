@@ -37,7 +37,8 @@ public:
         memcpy(dCount, staticdCount, sizeof(dCount));
     }
 
-    void encodeImagePixels(const Image<> &im) __attribute__((always_inline)) {
+	ALWAYS_INLINE
+    void encodeImagePixels(const Image<> &im) {
         const int bpr = im.samplesPerLine();
         const unsigned char *p = im.data();
         int size = im.width() * im.height();

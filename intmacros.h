@@ -102,7 +102,7 @@ static inline unsigned int s2u(int s)
 static inline int u2s(unsigned int u)
 {
 //    return u & 1 ? -(u >> 1) - 1 : (u >> 1);
-    return (u >> 1) ^ (-(u & 1));
+    return (u >> 1) ^ (-(signed)(u & 1));
 }
 
 #endif
