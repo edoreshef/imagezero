@@ -1,0 +1,11 @@
+obj/
+*/bin/Debug/
+*.lib
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+*.suo
+*.vshost.*
+*.csproj.*
+*.VC.*

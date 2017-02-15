@@ -1,0 +1,6 @@
+LIBRARY   ImageZero
+EXPORTS  
+    IZ_Init
+	IZ_ReadHeader
+	IZ_Decode
+	IZ_Encode

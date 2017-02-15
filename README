@@ -1,3 +1,6 @@
+This fork is a .NET warper for the usefull ImageZero image compression library.
+It enables an in-memory encoding and decoding of ImageZero images.
+
 ImageZero is a high-performance lossless RGB color image
 compressor/decompressor.
 
